@@ -1,0 +1,51 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & virtualenvs
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large Video & Media files (Prevents GitHub 100MB file limit errors & repo bloat)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+input_video.mp4
+output_video.mp4
+
+# Model weights & checkpoints (Ultralytics auto-downloads pretrained models on demand)
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.weights
+yolov8*.pt
+
+# Generated Detection Logs & Run Outputs
+detection_log.csv
+detection_report.txt
+runs/
+*.log

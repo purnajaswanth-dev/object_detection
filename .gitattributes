@@ -1,0 +1,18 @@
+# Auto-detect text files and normalize line endings on checkout/commit
+* text=auto
+
+# Explicit text files
+*.py text eol=lf
+*.md text
+*.txt text
+*.csv text
+*.json text
+
+# Explicit binary files
+*.pt binary
+*.pth binary
+*.mp4 binary
+*.avi binary
+*.png binary
+*.jpg binary
+*.jpeg binary
